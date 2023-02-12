@@ -1,0 +1,38 @@
+{
+  "name": "the-family-game",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.2",
+    "date-fns": "^2.29.2",
+    "framer-motion": "^7.3.5",
+    "next": "12.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-flow-renderer": "^10.3.17",
+    "react-icons": "^4.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@storybook/addon-actions": "^6.5.10",
+    "@storybook/addon-essentials": "^6.5.10",
+    "@storybook/addon-interactions": "^6.5.10",
+    "@storybook/addon-links": "^6.5.10",
+    "@storybook/builder-webpack5": "^6.5.10",
+    "@storybook/manager-webpack5": "^6.5.10",
+    "@storybook/react": "^6.5.10",
+    "@storybook/testing-library": "^0.0.13",
+    "babel-loader": "^8.2.5",
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.3.0",
+    "eslint-plugin-storybook": "^0.6.4"
+  }
+}
