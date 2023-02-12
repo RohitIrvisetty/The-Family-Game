@@ -1,0 +1,27 @@
+.animate_pingu {
+  animation: pingu 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.ring {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) rotate(90deg);
+}
+
+.time {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+@keyframes pingu {
+  75%,
+  100% {
+    transform: translate(-50%, -50%) scale(1.675);
+    opacity: 0;
+  }
+}
